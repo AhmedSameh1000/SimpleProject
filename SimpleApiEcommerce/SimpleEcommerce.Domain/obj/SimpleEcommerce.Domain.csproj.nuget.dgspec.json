@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProject\\SimpleApiEcommerce\\SimpleEcommerce.Domain\\SimpleEcommerce.Domain.csproj": {}
+    "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProjectTask\\SimpleApiEcommerce\\SimpleEcommerce.Domain\\SimpleEcommerce.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProject\\SimpleApiEcommerce\\SimpleEcommerce.Domain\\SimpleEcommerce.Domain.csproj": {
+    "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProjectTask\\SimpleApiEcommerce\\SimpleEcommerce.Domain\\SimpleEcommerce.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProject\\SimpleApiEcommerce\\SimpleEcommerce.Domain\\SimpleEcommerce.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProjectTask\\SimpleApiEcommerce\\SimpleEcommerce.Domain\\SimpleEcommerce.Domain.csproj",
         "projectName": "SimpleEcommerce.Domain",
-        "projectPath": "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProject\\SimpleApiEcommerce\\SimpleEcommerce.Domain\\SimpleEcommerce.Domain.csproj",
+        "projectPath": "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProjectTask\\SimpleApiEcommerce\\SimpleEcommerce.Domain\\SimpleEcommerce.Domain.csproj",
         "packagesPath": "C:\\Users\\Ahmed Sameh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProject\\SimpleApiEcommerce\\SimpleEcommerce.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProjectTask\\SimpleApiEcommerce\\SimpleEcommerce.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ahmed Sameh\\AppData\\Roaming\\NuGet\\NuGet.Config",

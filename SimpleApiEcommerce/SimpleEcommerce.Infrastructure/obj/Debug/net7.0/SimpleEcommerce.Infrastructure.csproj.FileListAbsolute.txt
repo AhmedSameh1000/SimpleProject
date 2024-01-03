@@ -74,3 +74,4 @@ C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerc
 C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerce.Infrastructure\obj\Debug\net7.0\SimpleEcommerce.Infrastructure.pdb
 C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerce.Infrastructure\obj\Debug\net7.0\SimpleEcommerce.Infrastructure.genruntimeconfig.cache
 C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerce.Infrastructure\obj\Debug\net7.0\ref\SimpleEcommerce.Infrastructure.dll
+C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerce.Infrastructure\obj\Debug\net7.0\SimpleEcommerce.Infrastructure.sourcelink.json

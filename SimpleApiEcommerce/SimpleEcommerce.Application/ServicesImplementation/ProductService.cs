@@ -58,5 +58,23 @@ namespace SimpleEcommerce.Application.ServicesImplementation
             await _ProductRepository.SaveChanges();
             return Product;
         }
+
+        public async Task<List<ProductToReturnDto>> GetProducts()
+        {
+            var Products = await _ProductRepository.GetAllAsNoTracking(new[] { "Category" });
+
+            var ProductToReturn = Products.Select(c => new ProductToReturnDto()
+            {
+                Category = c.Category.Name,
+                Price = c.Price,
+                DiscountRate = c.DiscountRate,
+                Name = c.Name,
+                Id = c.Id,
+                ImageUrl = c.ImageUrl,
+                MinimumQuantity = c.MinimumQuantity,
+            }).ToList();
+
+            return ProductToReturn;
+        }
     }
 }

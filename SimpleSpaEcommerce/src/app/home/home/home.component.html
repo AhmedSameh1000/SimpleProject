@@ -1,3 +1,35 @@
-<div *ngFor="let data of data">
-  {{ data }}
-</div>
+<mat-card-content class="cont">
+  <mat-card
+    class="example-card w-100 m-auto position-relative mycont"
+    *ngFor="let product of ProductList"
+  >
+    <div class="category btn btn-primary">{{ product.category }}</div>
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{ product.name }}</mat-card-title>
+    </mat-card-header>
+    <img
+      mat-card-image
+      [src]="product.imageUrl"
+      alt="Photo of a Shiba Inu"
+      mat-card-lg-image
+      class="m-auto"
+    />
+
+    <mat-card-actions class="ms-2 fw-bold">
+      Minimum Quantity: {{ product.minimumQuantity }} pieces
+    </mat-card-actions>
+    <div
+      class="bg-warning d-flex justify-content-center fw-bold align-content-center"
+    >
+      <div class="d-flex">
+        <div style="text-decoration-line: line-through" class="me-3">
+          {{ product.price }}$
+        </div>
+        <div>
+          {{ product.price - (product.price * product.discountRate) / 100 }}$
+        </div>
+      </div>
+    </div>
+  </mat-card>
+</mat-card-content>

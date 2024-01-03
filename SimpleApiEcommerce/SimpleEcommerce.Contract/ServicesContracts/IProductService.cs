@@ -6,5 +6,7 @@ namespace SimpleEcommerce.Contract.ServicesContracts
     public interface IProductService
     {
         public Task<Product> AddAsync(ProductDTO productDTO);
+
+        public Task<List<ProductToReturnDto>> GetProducts();
     }
 }

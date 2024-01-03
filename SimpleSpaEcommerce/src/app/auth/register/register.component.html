@@ -1,11 +1,11 @@
-<form class="example-form" [formGroup]="LoginForm">
+<form class="example-form" [formGroup]="ReegisterForm">
   <mat-form-field class="example-full-width">
     <mat-icon matPrefix>person</mat-icon>
     <input matInput placeholder="FullName...." formControlName="FullName" />
     <mat-error
       *ngIf="
-        LoginForm.get('FullName')?.errors?.['required'] &&
-        LoginForm.get('FullName')?.touched
+        ReegisterForm.get('FullName')?.errors?.['required'] &&
+        ReegisterForm.get('FullName')?.touched
       "
     >
       *FullName is required
@@ -16,15 +16,15 @@
     <input matInput placeholder="Email...." formControlName="Email" />
     <mat-error
       *ngIf="
-        LoginForm.get('Email')?.errors?.['required'] &&
-        LoginForm.get('Email')?.touched
+        ReegisterForm.get('Email')?.errors?.['required'] &&
+        ReegisterForm.get('Email')?.touched
       "
     >
       *Email is required
     </mat-error>
     <mat-error
       *ngIf="
-        LoginForm.get('Email')?.errors?.['email'] 
+        ReegisterForm.get('Email')?.errors?.['email'] 
        
       "
     >
@@ -40,7 +40,7 @@
       placeholder="Password..."
       formControlName="Password"
     />
-    <mat-error *ngIf="LoginForm.get('Password')?.errors?.['required']">
+    <mat-error *ngIf="ReegisterForm.get('Password')?.errors?.['required']">
       Password is required
     </mat-error>
   </mat-form-field>

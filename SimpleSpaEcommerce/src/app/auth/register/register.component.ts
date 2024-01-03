@@ -13,20 +13,20 @@ export class RegisterComponent {
   ngOnInit(): void {
     this.CreatelogInForm();
   }
-  LoginForm: FormGroup;
+  ReegisterForm: FormGroup;
 
   CreatelogInForm() {
-    this.LoginForm = new FormGroup({
+    this.ReegisterForm = new FormGroup({
       FullName: new FormControl('', [Validators.required]),
       Email: new FormControl('', [Validators.required, Validators.email]),
       Password: new FormControl('', [Validators.required]),
     });
   }
   Register() {
-    if (this.LoginForm.invalid) {
+    if (this.ReegisterForm.invalid) {
       return;
     }
-    this.AuthService.Signup(this.LoginForm.value).subscribe({
+    this.AuthService.Signup(this.ReegisterForm.value).subscribe({
       next: (res: any) => {
         this.AuthService.SaveTokens(res);
         this.Router.navigate(['auth/login']);

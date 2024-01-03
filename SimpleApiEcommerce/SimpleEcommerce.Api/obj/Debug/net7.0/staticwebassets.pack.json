@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProjectTask\\SimpleApiEcommerce\\SimpleEcommerce.Api\\wwwroot\\Images\\18d47105-e452-4e03-8123-0517854e58ad.png",
+      "PackagePath": "staticwebassets\\Images\\18d47105-e452-4e03-8123-0517854e58ad.png"
+    },
+    {
       "Id": "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProjectTask\\SimpleApiEcommerce\\SimpleEcommerce.Api\\wwwroot\\Images\\c92eea7b-a153-4f50-b848-350b6e012389.png",
       "PackagePath": "staticwebassets\\Images\\c92eea7b-a153-4f50-b848-350b6e012389.png"
     },

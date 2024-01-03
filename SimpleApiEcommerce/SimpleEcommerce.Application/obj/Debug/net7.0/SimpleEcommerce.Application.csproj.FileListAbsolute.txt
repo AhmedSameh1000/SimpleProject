@@ -74,3 +74,4 @@ C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerc
 C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\refint\SimpleEcommerce.Application.dll
 C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\SimpleEcommerce.Application.pdb
 C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\ref\SimpleEcommerce.Application.dll
+C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\SimpleEcommerce.Application.sourcelink.json

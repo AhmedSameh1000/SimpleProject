@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { AuthService } from 'src/app/services/auth.service';
+import { ProductService } from 'src/app/services/product.service';
 
 @Component({
   selector: 'app-home',
@@ -7,13 +7,16 @@ import { AuthService } from 'src/app/services/auth.service';
   styleUrls: ['./home.component.css'],
 })
 export class HomeComponent {
-  constructor(private AuthService: AuthService) {}
-  data = [];
+  constructor(private ProductService: ProductService) {}
   ngOnInit(): void {
-    this.AuthService.GetData().subscribe({
+    this.loadproducts();
+  }
+  ProductList = [];
+  loadproducts() {
+    this.ProductService.GetProducts().subscribe({
       next: (res: any) => {
-        console.log(res);
-        this.data = res;
+        console.log(res.data);
+        this.ProductList = res.data;
       },
     });
   }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "U1aEK/1v4OEZPE3ocAs0Tz9mSiqtcJudR76zIgqge3g=",
+  "Hash": "lnkuz0KYXyV/AKTt4JEfVkSDn5mykSZDIpurDbliBKE=",
   "Source": "SimpleEcommerce.Api",
   "BasePath": "_content/SimpleEcommerce.Api",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProjectTask\\SimpleApiEcommerce\\SimpleEcommerce.Api\\wwwroot\\Images\\18d47105-e452-4e03-8123-0517854e58ad.png",
+      "SourceId": "SimpleEcommerce.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProjectTask\\SimpleApiEcommerce\\SimpleEcommerce.Api\\wwwroot\\",
+      "BasePath": "_content/SimpleEcommerce.Api",
+      "RelativePath": "Images/18d47105-e452-4e03-8123-0517854e58ad.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\18d47105-e452-4e03-8123-0517854e58ad.png"
+    },
     {
       "Identity": "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProjectTask\\SimpleApiEcommerce\\SimpleEcommerce.Api\\wwwroot\\Images\\c92eea7b-a153-4f50-b848-350b6e012389.png",
       "SourceId": "SimpleEcommerce.Api",

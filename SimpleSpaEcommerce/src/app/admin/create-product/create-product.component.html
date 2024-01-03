@@ -82,7 +82,12 @@
   </mat-card>
   <mat-card-footer>
     <div class="mt-4 d-flex justify-content-center gap-3">
-      <button mat-raised-button color="accent" (click)="CreateProduct()">
+      <button
+        mat-raised-button
+        color="accent"
+        [disabled]="ProductForm.invalid"
+        (click)="CreateProduct()"
+      >
         Add Product
       </button>
       <button mat-raised-button color="primary" mat-dialog-close>Close</button>

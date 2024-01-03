@@ -16,8 +16,6 @@
   <ItemGroup>
     <Folder Include="Features\Authentication\AuthenticationQueries\Validators\" />
     <Folder Include="Features\Category\CategoryQueries\Validators\" />
-    <Folder Include="Features\Product\ProductQueries\Handlers\" />
-    <Folder Include="Features\Product\ProductQueries\Models\" />
     <Folder Include="Features\Product\ProductQueries\Validation\" />
   </ItemGroup>
 

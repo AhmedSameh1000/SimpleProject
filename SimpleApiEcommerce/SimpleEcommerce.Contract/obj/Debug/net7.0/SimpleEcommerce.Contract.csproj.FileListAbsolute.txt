@@ -58,3 +58,4 @@ C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerc
 C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerce.Contract\obj\Debug\net7.0\refint\SimpleEcommerce.Contract.dll
 C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerce.Contract\obj\Debug\net7.0\SimpleEcommerce.Contract.pdb
 C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerce.Contract\obj\Debug\net7.0\ref\SimpleEcommerce.Contract.dll
+C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerce.Contract\obj\Debug\net7.0\SimpleEcommerce.Contract.sourcelink.json

@@ -13,4 +13,9 @@ export class ProductService {
       product
     );
   }
+  GetProducts() {
+    return this.httpclient.get(
+      'https://localhost:7186/api/Product/GetProducts'
+    );
+  }
 }

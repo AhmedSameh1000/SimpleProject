@@ -395,3 +395,4 @@ C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerc
 C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerce.Api\obj\Debug\net7.0\SimpleEcommerce.Api.pdb
 C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerce.Api\obj\Debug\net7.0\SimpleEcommerce.Api.genruntimeconfig.cache
 C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerce.Api\obj\Debug\net7.0\ref\SimpleEcommerce.Api.dll
+C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerce.Api\obj\Debug\net7.0\SimpleEcommerce.Api.sourcelink.json

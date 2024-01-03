@@ -3918,11 +3918,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProject\\SimpleApiEcommerce\\SimpleEcommerce.Api\\SimpleEcommerce.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProjectTask\\SimpleApiEcommerce\\SimpleEcommerce.Api\\SimpleEcommerce.Api.csproj",
       "projectName": "SimpleEcommerce.Api",
-      "projectPath": "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProject\\SimpleApiEcommerce\\SimpleEcommerce.Api\\SimpleEcommerce.Api.csproj",
+      "projectPath": "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProjectTask\\SimpleApiEcommerce\\SimpleEcommerce.Api\\SimpleEcommerce.Api.csproj",
       "packagesPath": "C:\\Users\\Ahmed Sameh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProject\\SimpleApiEcommerce\\SimpleEcommerce.Api\\obj\\",
+      "outputPath": "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProjectTask\\SimpleApiEcommerce\\SimpleEcommerce.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ahmed Sameh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3939,14 +3939,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProject\\SimpleApiEcommerce\\SimpleEcommerce.Application\\SimpleEcommerce.Application.csproj": {
-              "projectPath": "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProject\\SimpleApiEcommerce\\SimpleEcommerce.Application\\SimpleEcommerce.Application.csproj"
+            "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProjectTask\\SimpleApiEcommerce\\SimpleEcommerce.Application\\SimpleEcommerce.Application.csproj": {
+              "projectPath": "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProjectTask\\SimpleApiEcommerce\\SimpleEcommerce.Application\\SimpleEcommerce.Application.csproj"
             },
-            "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProject\\SimpleApiEcommerce\\SimpleEcommerce.Contract\\SimpleEcommerce.Contract.csproj": {
-              "projectPath": "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProject\\SimpleApiEcommerce\\SimpleEcommerce.Contract\\SimpleEcommerce.Contract.csproj"
+            "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProjectTask\\SimpleApiEcommerce\\SimpleEcommerce.Contract\\SimpleEcommerce.Contract.csproj": {
+              "projectPath": "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProjectTask\\SimpleApiEcommerce\\SimpleEcommerce.Contract\\SimpleEcommerce.Contract.csproj"
             },
-            "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProject\\SimpleApiEcommerce\\SimpleEcommerce.Infrastructure\\SimpleEcommerce.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProject\\SimpleApiEcommerce\\SimpleEcommerce.Infrastructure\\SimpleEcommerce.Infrastructure.csproj"
+            "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProjectTask\\SimpleApiEcommerce\\SimpleEcommerce.Infrastructure\\SimpleEcommerce.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProjectTask\\SimpleApiEcommerce\\SimpleEcommerce.Infrastructure\\SimpleEcommerce.Infrastructure.csproj"
             }
           }
         }

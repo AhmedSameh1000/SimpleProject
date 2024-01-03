@@ -21,6 +21,7 @@ export class LoginComponent {
       Password: new FormControl(null, [Validators.required]),
     });
   }
+  EmailorPasswordIsIncorrect = '';
   Login() {
     if (this.LoginForm.invalid) {
       return;
@@ -29,10 +30,9 @@ export class LoginComponent {
       next: (res: any) => {
         this.AuthService.SaveTokens(res);
         this.Router.navigate(['']);
-        console.log(res.data.token);
       },
       error: (err) => {
-        console.log(err);
+        this.EmailorPasswordIsIncorrect = err.error.errors[0];
       },
     });
   }
