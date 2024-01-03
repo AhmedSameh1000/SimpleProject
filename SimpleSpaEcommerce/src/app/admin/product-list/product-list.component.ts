@@ -17,17 +17,26 @@ export class ProductListComponent implements OnInit {
     this.loadproducts();
   }
   OpenCreateproduct() {
-    this.MatDialog.open(CreateProductComponent, {
+    let OpenModel = this.MatDialog.open(CreateProductComponent, {
       width: '80%',
       height: '70%',
+    });
+    OpenModel.afterClosed().subscribe({
+      next: (res) => {
+        if (res) {
+          this.loadproducts();
+        }
+      },
     });
   }
   ProductList = [];
   loadproducts() {
     this.ProductService.GetProducts().subscribe({
       next: (res: any) => {
-        console.log(res.data);
+        console.log(res);
+        this.ProductList = res.data;
       },
     });
   }
+  ColumnsDisplay = ['Id', 'Name', 'price', 'Quantity', 'Discount', 'Category'];
 }

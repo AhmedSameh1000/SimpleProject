@@ -1,3 +1,4 @@
+import { MatDialog, MatDialogRef } from '@angular/material/dialog';
 import { Component } from '@angular/core';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { CategoryService } from 'src/app/services/category.service';
@@ -11,7 +12,8 @@ import { ProductService } from 'src/app/services/product.service';
 export class CreateProductComponent {
   constructor(
     private ServiceCategory: CategoryService,
-    private ProductService: ProductService
+    private ProductService: ProductService,
+    private MatDialogRef: MatDialogRef<CreateProductComponent>
   ) {}
   ngOnInit(): void {
     this.LoadCategories();
@@ -44,6 +46,7 @@ export class CreateProductComponent {
     this.ProductService.Createproduct(productDTO).subscribe({
       next: (res) => {
         console.log(res);
+        this.MatDialogRef.close(true);
       },
     });
   }
