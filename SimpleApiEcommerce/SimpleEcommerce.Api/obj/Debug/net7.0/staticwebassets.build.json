@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "U1aEK/1v4OEZPE3ocAs0Tz9mSiqtcJudR76zIgqge3g=",
+  "Source": "SimpleEcommerce.Api",
+  "BasePath": "_content/SimpleEcommerce.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SimpleEcommerce.Api\\wwwroot",
+      "Source": "SimpleEcommerce.Api",
+      "ContentRoot": "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProjectTask\\SimpleApiEcommerce\\SimpleEcommerce.Api\\wwwroot\\",
+      "BasePath": "_content/SimpleEcommerce.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProjectTask\\SimpleApiEcommerce\\SimpleEcommerce.Api\\wwwroot\\Images\\c92eea7b-a153-4f50-b848-350b6e012389.png",
+      "SourceId": "SimpleEcommerce.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProjectTask\\SimpleApiEcommerce\\SimpleEcommerce.Api\\wwwroot\\",
+      "BasePath": "_content/SimpleEcommerce.Api",
+      "RelativePath": "Images/c92eea7b-a153-4f50-b848-350b6e012389.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\c92eea7b-a153-4f50-b848-350b6e012389.png"
+    }
+  ]
+}

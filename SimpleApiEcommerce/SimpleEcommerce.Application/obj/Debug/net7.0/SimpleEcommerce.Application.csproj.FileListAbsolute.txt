@@ -1,0 +1,76 @@
+C:\Users\Ahmed Sameh\Desktop\newTask\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\SimpleEcommerce.Application.csproj.AssemblyReference.cache
+C:\Users\Ahmed Sameh\Desktop\newTask\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\SimpleEcommerce.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahmed Sameh\Desktop\newTask\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\SimpleEcommerce.Application.AssemblyInfoInputs.cache
+C:\Users\Ahmed Sameh\Desktop\newTask\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\SimpleEcommerce.Application.AssemblyInfo.cs
+C:\Users\Ahmed Sameh\Desktop\newTask\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\SimpleEcommerce.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed Sameh\Desktop\newTask\SimpleApiEcommerce\SimpleEcommerce.Application\bin\Debug\net7.0\SimpleEcommerce.Application.deps.json
+C:\Users\Ahmed Sameh\Desktop\newTask\SimpleApiEcommerce\SimpleEcommerce.Application\bin\Debug\net7.0\SimpleEcommerce.Application.dll
+C:\Users\Ahmed Sameh\Desktop\newTask\SimpleApiEcommerce\SimpleEcommerce.Application\bin\Debug\net7.0\SimpleEcommerce.Application.pdb
+C:\Users\Ahmed Sameh\Desktop\newTask\SimpleApiEcommerce\SimpleEcommerce.Application\bin\Debug\net7.0\SimpleEcommerce.Contract.dll
+C:\Users\Ahmed Sameh\Desktop\newTask\SimpleApiEcommerce\SimpleEcommerce.Application\bin\Debug\net7.0\SimpleEcommerce.Domain.dll
+C:\Users\Ahmed Sameh\Desktop\newTask\SimpleApiEcommerce\SimpleEcommerce.Application\bin\Debug\net7.0\SimpleEcommerce.Infrastructure.dll
+C:\Users\Ahmed Sameh\Desktop\newTask\SimpleApiEcommerce\SimpleEcommerce.Application\bin\Debug\net7.0\SimpleEcommerce.Contract.pdb
+C:\Users\Ahmed Sameh\Desktop\newTask\SimpleApiEcommerce\SimpleEcommerce.Application\bin\Debug\net7.0\SimpleEcommerce.Domain.pdb
+C:\Users\Ahmed Sameh\Desktop\newTask\SimpleApiEcommerce\SimpleEcommerce.Application\bin\Debug\net7.0\SimpleEcommerce.Infrastructure.pdb
+C:\Users\Ahmed Sameh\Desktop\newTask\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\SimpleEcommerce.Application.csproj.CopyComplete
+C:\Users\Ahmed Sameh\Desktop\newTask\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\SimpleEcommerce.Application.dll
+C:\Users\Ahmed Sameh\Desktop\newTask\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\refint\SimpleEcommerce.Application.dll
+C:\Users\Ahmed Sameh\Desktop\newTask\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\SimpleEcommerce.Application.pdb
+C:\Users\Ahmed Sameh\Desktop\newTask\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\ref\SimpleEcommerce.Application.dll
+C:\Users\Ahmed Sameh\Desktop\newTask - Copy\SimpleApiEcommerce\SimpleEcommerce.Application\bin\Debug\net7.0\SimpleEcommerce.Application.deps.json
+C:\Users\Ahmed Sameh\Desktop\newTask - Copy\SimpleApiEcommerce\SimpleEcommerce.Application\bin\Debug\net7.0\SimpleEcommerce.Application.dll
+C:\Users\Ahmed Sameh\Desktop\newTask - Copy\SimpleApiEcommerce\SimpleEcommerce.Application\bin\Debug\net7.0\SimpleEcommerce.Application.pdb
+C:\Users\Ahmed Sameh\Desktop\newTask - Copy\SimpleApiEcommerce\SimpleEcommerce.Application\bin\Debug\net7.0\SimpleEcommerce.Contract.dll
+C:\Users\Ahmed Sameh\Desktop\newTask - Copy\SimpleApiEcommerce\SimpleEcommerce.Application\bin\Debug\net7.0\SimpleEcommerce.Domain.dll
+C:\Users\Ahmed Sameh\Desktop\newTask - Copy\SimpleApiEcommerce\SimpleEcommerce.Application\bin\Debug\net7.0\SimpleEcommerce.Infrastructure.dll
+C:\Users\Ahmed Sameh\Desktop\newTask - Copy\SimpleApiEcommerce\SimpleEcommerce.Application\bin\Debug\net7.0\SimpleEcommerce.Contract.pdb
+C:\Users\Ahmed Sameh\Desktop\newTask - Copy\SimpleApiEcommerce\SimpleEcommerce.Application\bin\Debug\net7.0\SimpleEcommerce.Domain.pdb
+C:\Users\Ahmed Sameh\Desktop\newTask - Copy\SimpleApiEcommerce\SimpleEcommerce.Application\bin\Debug\net7.0\SimpleEcommerce.Infrastructure.pdb
+C:\Users\Ahmed Sameh\Desktop\newTask - Copy\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\SimpleEcommerce.Application.csproj.AssemblyReference.cache
+C:\Users\Ahmed Sameh\Desktop\newTask - Copy\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\SimpleEcommerce.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahmed Sameh\Desktop\newTask - Copy\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\SimpleEcommerce.Application.AssemblyInfoInputs.cache
+C:\Users\Ahmed Sameh\Desktop\newTask - Copy\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\SimpleEcommerce.Application.AssemblyInfo.cs
+C:\Users\Ahmed Sameh\Desktop\newTask - Copy\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\SimpleEcommerce.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed Sameh\Desktop\newTask - Copy\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\SimpleEcommerce.Application.csproj.CopyComplete
+C:\Users\Ahmed Sameh\Desktop\newTask - Copy\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\SimpleEcommerce.Application.dll
+C:\Users\Ahmed Sameh\Desktop\newTask - Copy\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\refint\SimpleEcommerce.Application.dll
+C:\Users\Ahmed Sameh\Desktop\newTask - Copy\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\SimpleEcommerce.Application.pdb
+C:\Users\Ahmed Sameh\Desktop\newTask - Copy\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\ref\SimpleEcommerce.Application.dll
+C:\Users\Ahmed Sameh\Desktop\SimpleProject\SimpleApiEcommerce\SimpleEcommerce.Application\bin\Debug\net7.0\SimpleEcommerce.Application.deps.json
+C:\Users\Ahmed Sameh\Desktop\SimpleProject\SimpleApiEcommerce\SimpleEcommerce.Application\bin\Debug\net7.0\SimpleEcommerce.Application.dll
+C:\Users\Ahmed Sameh\Desktop\SimpleProject\SimpleApiEcommerce\SimpleEcommerce.Application\bin\Debug\net7.0\SimpleEcommerce.Application.pdb
+C:\Users\Ahmed Sameh\Desktop\SimpleProject\SimpleApiEcommerce\SimpleEcommerce.Application\bin\Debug\net7.0\SimpleEcommerce.Contract.dll
+C:\Users\Ahmed Sameh\Desktop\SimpleProject\SimpleApiEcommerce\SimpleEcommerce.Application\bin\Debug\net7.0\SimpleEcommerce.Domain.dll
+C:\Users\Ahmed Sameh\Desktop\SimpleProject\SimpleApiEcommerce\SimpleEcommerce.Application\bin\Debug\net7.0\SimpleEcommerce.Infrastructure.dll
+C:\Users\Ahmed Sameh\Desktop\SimpleProject\SimpleApiEcommerce\SimpleEcommerce.Application\bin\Debug\net7.0\SimpleEcommerce.Contract.pdb
+C:\Users\Ahmed Sameh\Desktop\SimpleProject\SimpleApiEcommerce\SimpleEcommerce.Application\bin\Debug\net7.0\SimpleEcommerce.Domain.pdb
+C:\Users\Ahmed Sameh\Desktop\SimpleProject\SimpleApiEcommerce\SimpleEcommerce.Application\bin\Debug\net7.0\SimpleEcommerce.Infrastructure.pdb
+C:\Users\Ahmed Sameh\Desktop\SimpleProject\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\SimpleEcommerce.Application.csproj.AssemblyReference.cache
+C:\Users\Ahmed Sameh\Desktop\SimpleProject\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\SimpleEcommerce.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahmed Sameh\Desktop\SimpleProject\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\SimpleEcommerce.Application.AssemblyInfoInputs.cache
+C:\Users\Ahmed Sameh\Desktop\SimpleProject\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\SimpleEcommerce.Application.AssemblyInfo.cs
+C:\Users\Ahmed Sameh\Desktop\SimpleProject\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\SimpleEcommerce.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed Sameh\Desktop\SimpleProject\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\SimpleEcommerce.Application.csproj.CopyComplete
+C:\Users\Ahmed Sameh\Desktop\SimpleProject\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\SimpleEcommerce.Application.dll
+C:\Users\Ahmed Sameh\Desktop\SimpleProject\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\refint\SimpleEcommerce.Application.dll
+C:\Users\Ahmed Sameh\Desktop\SimpleProject\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\SimpleEcommerce.Application.pdb
+C:\Users\Ahmed Sameh\Desktop\SimpleProject\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\ref\SimpleEcommerce.Application.dll
+C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerce.Application\bin\Debug\net7.0\SimpleEcommerce.Application.deps.json
+C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerce.Application\bin\Debug\net7.0\SimpleEcommerce.Application.dll
+C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerce.Application\bin\Debug\net7.0\SimpleEcommerce.Application.pdb
+C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerce.Application\bin\Debug\net7.0\SimpleEcommerce.Contract.dll
+C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerce.Application\bin\Debug\net7.0\SimpleEcommerce.Domain.dll
+C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerce.Application\bin\Debug\net7.0\SimpleEcommerce.Infrastructure.dll
+C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerce.Application\bin\Debug\net7.0\SimpleEcommerce.Contract.pdb
+C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerce.Application\bin\Debug\net7.0\SimpleEcommerce.Domain.pdb
+C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerce.Application\bin\Debug\net7.0\SimpleEcommerce.Infrastructure.pdb
+C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\SimpleEcommerce.Application.csproj.AssemblyReference.cache
+C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\SimpleEcommerce.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\SimpleEcommerce.Application.AssemblyInfoInputs.cache
+C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\SimpleEcommerce.Application.AssemblyInfo.cs
+C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\SimpleEcommerce.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\SimpleEcommerce.Application.csproj.CopyComplete
+C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\SimpleEcommerce.Application.dll
+C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\refint\SimpleEcommerce.Application.dll
+C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\SimpleEcommerce.Application.pdb
+C:\Users\Ahmed Sameh\Desktop\SimpleProjectTask\SimpleApiEcommerce\SimpleEcommerce.Application\obj\Debug\net7.0\ref\SimpleEcommerce.Application.dll

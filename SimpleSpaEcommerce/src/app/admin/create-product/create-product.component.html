@@ -1,0 +1,91 @@
+<form [formGroup]="ProductForm">
+  <mat-card class="example-card">
+    <mat-card-content>
+      <div>
+        <mat-form-field class="w-100">
+          <mat-label>Product Name</mat-label>
+          <input
+            matInput
+            placeholder="Enter Product Name"
+            formControlName="Name"
+          />
+          <mat-error
+            *ngIf="ProductForm.get('Name').touched&&ProductForm.get('Name').errors?.['required']"
+          >
+            Product Name Required
+          </mat-error>
+        </mat-form-field>
+      </div>
+      <div class="d-flex gap-2">
+        <mat-form-field class="w-50">
+          <mat-label>Product Price</mat-label>
+          <input matInput placeholder="Price" formControlName="Price" />
+          <mat-error
+            *ngIf="ProductForm.get('Price').touched&&ProductForm.get('Price').errors?.['required']"
+          >
+            Price Field Required
+          </mat-error>
+        </mat-form-field>
+        <mat-form-field class="w-50">
+          <mat-label>MinimumQuantity</mat-label>
+          <input
+            matInput
+            placeholder="MinimumQuantity"
+            formControlName="MinimumQuantity"
+          />
+          <mat-error
+            *ngIf="ProductForm.get('MinimumQuantity').touched&&ProductForm.get('MinimumQuantity').errors?.['required']"
+          >
+            MinimumQuantity Name Required
+          </mat-error>
+        </mat-form-field>
+      </div>
+
+      <div class="d-flex gap-2">
+        <mat-form-field class="w-50">
+          <mat-label> Discount Rate</mat-label>
+          <input
+            matInput
+            placeholder="Discount Rate"
+            formControlName="DiscountRate"
+          />
+          <mat-error
+            *ngIf="ProductForm.get('DiscountRate').touched&&ProductForm.get('DiscountRate').errors?.['required']"
+          >
+            Discount Rate Name Required
+          </mat-error>
+        </mat-form-field>
+        <mat-form-field class="w-50">
+          <mat-label>--Select Category</mat-label>
+          <mat-select formControlName="CategoryId">
+            <mat-option
+              [value]="Category.categoryId"
+              *ngFor="let Category of Categorylist"
+              >{{ Category.name }}</mat-option
+            >
+          </mat-select>
+          <mat-error
+            *ngIf="ProductForm.get('CategoryId').touched&&ProductForm.get('CategoryId')?.errors?.['required']"
+          >
+            Category Required
+          </mat-error>
+        </mat-form-field>
+      </div>
+      <div class="form-group mb-3">
+        <input
+          type="file"
+          class="form-control"
+          (change)="SelectImage($event)"
+        />
+      </div>
+    </mat-card-content>
+  </mat-card>
+  <mat-card-footer>
+    <div class="mt-4 d-flex justify-content-center gap-3">
+      <button mat-raised-button color="accent" (click)="CreateProduct()">
+        Add Product
+      </button>
+      <button mat-raised-button color="primary" mat-dialog-close>Close</button>
+    </div>
+  </mat-card-footer>
+</form>

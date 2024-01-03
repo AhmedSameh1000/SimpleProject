@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProjectTask\\SimpleApiEcommerce\\SimpleEcommerce.Api\\wwwroot\\Images\\c92eea7b-a153-4f50-b848-350b6e012389.png",
+      "PackagePath": "staticwebassets\\Images\\c92eea7b-a153-4f50-b848-350b6e012389.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.SimpleEcommerce.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.SimpleEcommerce.Api.props",
+      "PackagePath": "build\\SimpleEcommerce.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.SimpleEcommerce.Api.props",
+      "PackagePath": "buildMultiTargeting\\SimpleEcommerce.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.SimpleEcommerce.Api.props",
+      "PackagePath": "buildTransitive\\SimpleEcommerce.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

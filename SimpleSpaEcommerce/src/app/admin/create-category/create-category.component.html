@@ -1,0 +1,37 @@
+<form [formGroup]="CategoryForm">
+  <mat-card class="example-card">
+    <mat-card-content>
+      <div>
+        <mat-form-field class="w-100">
+          <mat-label>Category Name</mat-label>
+          <input
+            autofocus
+            matInput
+            placeholder="Enter Category Name"
+            formControlName="categoryName"
+          />
+
+          <mat-error
+            *ngIf="
+                CategoryForm.get('categoryName')?.errors?.['required'] &&
+                CategoryForm.get('categoryName')?.touched"
+            >*Category Name Required</mat-error
+          >
+        </mat-form-field>
+      </div>
+    </mat-card-content>
+  </mat-card>
+  <mat-card-footer>
+    <div class="mt-4 d-flex justify-content-center gap-3">
+      <button
+        mat-raised-button
+        color="accent"
+        [disabled]="CategoryForm.invalid"
+        (click)="CreateCategory()"
+      >
+        Add Category
+      </button>
+      <button mat-raised-button color="primary" (click)="Close()">Close</button>
+    </div>
+  </mat-card-footer>
+</form>

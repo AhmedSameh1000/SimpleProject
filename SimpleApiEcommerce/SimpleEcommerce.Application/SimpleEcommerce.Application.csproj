@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.9.0" />
+    <PackageReference Include="MediatR" Version="12.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.5.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Authentication\AuthenticationQueries\Validators\" />
+    <Folder Include="Features\Category\CategoryQueries\Validators\" />
+    <Folder Include="Features\Product\ProductQueries\Handlers\" />
+    <Folder Include="Features\Product\ProductQueries\Models\" />
+    <Folder Include="Features\Product\ProductQueries\Validation\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleEcommerce.Contract\SimpleEcommerce.Contract.csproj" />
+    <ProjectReference Include="..\SimpleEcommerce.Domain\SimpleEcommerce.Domain.csproj" />
+    <ProjectReference Include="..\SimpleEcommerce.Infrastructure\SimpleEcommerce.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
