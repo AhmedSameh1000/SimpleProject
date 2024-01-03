@@ -37,12 +37,5 @@ namespace SimpleEcommerce.Api.Controllers
             var Response = await _mediator.Send(new RefreshTokenModelCommand(userId));
             return NewResult(Response);
         }
-
-        [Authorize]
-        [HttpGet("SecureData")]
-        public IActionResult Data()
-        {
-            return Ok(new List<string> { "Ahmed", "Smaeh" });
-        }
     }
 }

@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { JwtHelperService } from '@auth0/angular-jwt';
 
 @Injectable({
   providedIn: 'root',
@@ -13,9 +14,14 @@ export class AuthService {
       logInModel
     );
   }
-  GetData() {
-    return this.httpclient.get('https://localhost:7186/api/Auth/SecureData');
+  JWTHealper = new JwtHelperService();
+  GetUserId() {
+    if (this.isLoggedIn()) {
+      var decodedToken = this.GetDecodedToken();
+      return decodedToken.Id;
+    }
   }
+
   Signup(SignupModel: any) {
     return this.httpclient.post(
       'https://localhost:7186/api/Auth/Register',
@@ -23,6 +29,25 @@ export class AuthService {
     );
   }
 
+  GetDecodedToken(): any {
+    if (this.isLoggedIn()) {
+      const token = this.GetToken();
+      var decodedToken = this.JWTHealper.decodeToken(token);
+      return decodedToken;
+    }
+  }
+
+  IsAdmin(): any {
+    if (this.isLoggedIn()) {
+      var decodedToken = this.GetDecodedToken();
+      var Roles: string[] = decodedToken.roles;
+      if (Roles.includes('Admin')) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+  }
   isLoggedIn() {
     if (
       localStorage.getItem('token') != null &&
@@ -42,8 +67,10 @@ export class AuthService {
     localStorage.setItem('token', response.data.token);
   }
 
-  GetToken() {
-    return localStorage.getItem('token');
+  GetToken(): any {
+    if (this.isLoggedIn()) {
+      return localStorage.getItem('token');
+    }
   }
   logout() {
     localStorage.removeItem('token');

@@ -1,19 +1,26 @@
+using Microsoft.AspNetCore.Identity;
+using SimpleEcommerce.Api;
 using SimpleEcommerce.Application;
+using SimpleEcommerce.Domain.Entities;
 using SimpleEcommerce.Infrastructure;
 using SimpleEcommerce.Infrastructure.Helpers;
+using SimpleEcommerce.Infrastructure.Seeding;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-builder.Services.AddInfrastructureRegistration(builder.Configuration).AddApplicationServices();
+builder.Services.AddApiService().AddInfrastructureRegistration(builder.Configuration).AddApplicationServices();
 
 var app = builder.Build();
+using (var Scope = app.Services.CreateScope())
+{
+    var UserManger = Scope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
+    var RoleManger = Scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+
+    await new SeedinitialData(RoleManger, UserManger).SeedData();
+}
+
 app.UseStaticFiles();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

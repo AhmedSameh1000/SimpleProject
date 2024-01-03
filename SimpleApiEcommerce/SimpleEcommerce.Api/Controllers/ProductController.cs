@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SimpleEcommerce.Application.Features.Authentication.AuthenticationCommands.Models;
 using SimpleEcommerce.Application.Features.Product.ProductCommands.Models;
@@ -19,6 +20,7 @@ namespace SimpleEcommerce.Api.Controllers
         }
 
         [HttpPost("CreateProduct")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> CreateProduct([FromForm] ProductDTO productDTO)
         {
             var Response = await _Mediator.Send(new ProductModelCreateCommand(productDTO));

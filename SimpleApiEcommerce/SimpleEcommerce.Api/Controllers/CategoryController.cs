@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SimpleEcommerce.Application.Features.Authentication.AuthenticationQueries.Models;
@@ -19,13 +20,15 @@ namespace SimpleEcommerce.Api.Controllers
         }
 
         [HttpPost("CreateCategory")]
-        public async Task<IActionResult> LogIn(string categoryName)
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> CreateCategory(string categoryName)
         {
             var Response = await _mediator.Send(new CategoryModelCommand(categoryName));
             return NewResult(Response);
         }
 
         [HttpGet("GetCategories")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> GetCategories()
         {
             var Response = await _mediator.Send(new GetCategoriesModelQery());

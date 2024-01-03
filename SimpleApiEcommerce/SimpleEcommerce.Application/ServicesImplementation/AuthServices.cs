@@ -41,6 +41,7 @@ namespace SimpleEcommerce.Application.ServicesImplementation.AuthServicesImpleme
 
             var claims = new[]
             {
+                new Claim("Id", user.Id),
                 new Claim(ClaimTypes.NameIdentifier, user.Id),
                 new Claim(ClaimTypes.Email, user.Email),
             }
@@ -160,7 +161,7 @@ namespace SimpleEcommerce.Application.ServicesImplementation.AuthServicesImpleme
 
                 return new AuthModel { Message = errors };
             }
-
+            await _userManager.AddToRoleAsync(user, "User");
             var Token = await this.GenerateToken(user);
 
             return new AuthModel

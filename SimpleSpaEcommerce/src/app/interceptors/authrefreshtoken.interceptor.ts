@@ -32,17 +32,15 @@ export class AuthrefreshtokenInterceptor implements HttpInterceptor {
   }
   handleRefrehToken(request: HttpRequest<any>, next: HttpHandler) {
     let authservice = this.inject.get(AuthService);
-    return authservice
-      .RefreshToken('4fd8f921-b7af-4c56-8f1b-3a1be1ac43ce')
-      .pipe(
-        switchMap((Response: any) => {
-          authservice.SaveTokens(Response);
-          return next.handle(this.AddTokenheader(request, Response.data.token));
-        }),
-        catchError((errodata) => {
-          return throwError(errodata);
-        })
-      );
+    return authservice.RefreshToken(this.authservice.GetUserId()).pipe(
+      switchMap((Response: any) => {
+        authservice.SaveTokens(Response);
+        return next.handle(this.AddTokenheader(request, Response.data.token));
+      }),
+      catchError((errodata) => {
+        return throwError(errodata);
+      })
+    );
   }
 
   AddTokenheader(request: HttpRequest<any>, token: any) {

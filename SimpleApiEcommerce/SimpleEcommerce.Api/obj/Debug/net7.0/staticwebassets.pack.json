@@ -1,8 +1,16 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProjectTask\\SimpleApiEcommerce\\SimpleEcommerce.Api\\wwwroot\\Images\\1384080a-c4f1-4972-a302-5ab03a6ecc3d.jpg",
+      "PackagePath": "staticwebassets\\Images\\1384080a-c4f1-4972-a302-5ab03a6ecc3d.jpg"
+    },
+    {
       "Id": "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProjectTask\\SimpleApiEcommerce\\SimpleEcommerce.Api\\wwwroot\\Images\\18d47105-e452-4e03-8123-0517854e58ad.png",
       "PackagePath": "staticwebassets\\Images\\18d47105-e452-4e03-8123-0517854e58ad.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProjectTask\\SimpleApiEcommerce\\SimpleEcommerce.Api\\wwwroot\\Images\\9b1954a3-ed80-480a-ba56-2176f686b4a1.jpg",
+      "PackagePath": "staticwebassets\\Images\\9b1954a3-ed80-480a-ba56-2176f686b4a1.jpg"
     },
     {
       "Id": "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProjectTask\\SimpleApiEcommerce\\SimpleEcommerce.Api\\wwwroot\\Images\\c92eea7b-a153-4f50-b848-350b6e012389.png",
