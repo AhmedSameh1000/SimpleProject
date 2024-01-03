@@ -5,13 +5,15 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleEcommerce.Api", "SimpleEcommerce.Api\SimpleEcommerce.Api.csproj", "{35DD3D98-1F6E-4E78-85D4-5310401AD740}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleEcommerce.Application", "SimpleEcommerce.Application\SimpleEcommerce.Application.csproj", "{B1E3BAD6-DA00-4646-8E40-FFFC701AED0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleEcommerce.Application", "SimpleEcommerce.Application\SimpleEcommerce.Application.csproj", "{B1E3BAD6-DA00-4646-8E40-FFFC701AED0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleEcommerce.Infrastructure", "SimpleEcommerce.Infrastructure\SimpleEcommerce.Infrastructure.csproj", "{A9C594F6-40BF-446A-8F70-8190751A404E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleEcommerce.Infrastructure", "SimpleEcommerce.Infrastructure\SimpleEcommerce.Infrastructure.csproj", "{A9C594F6-40BF-446A-8F70-8190751A404E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleEcommerce.Domain", "SimpleEcommerce.Domain\SimpleEcommerce.Domain.csproj", "{5FA5CAA8-65C5-4252-8010-4651F1BCAE47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleEcommerce.Domain", "SimpleEcommerce.Domain\SimpleEcommerce.Domain.csproj", "{5FA5CAA8-65C5-4252-8010-4651F1BCAE47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleEcommerce.Contract", "SimpleEcommerce.Contract\SimpleEcommerce.Contract.csproj", "{D90BEB6F-494A-49F4-ABBA-123F10E55850}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleEcommerce.Contract", "SimpleEcommerce.Contract\SimpleEcommerce.Contract.csproj", "{D90BEB6F-494A-49F4-ABBA-123F10E55850}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleEcommerce.Testing", "SimpleEcommerce.Testing\SimpleEcommerce.Testing.csproj", "{6E3705AF-9085-4D27-B6B8-60093BEAACC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{D90BEB6F-494A-49F4-ABBA-123F10E55850}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D90BEB6F-494A-49F4-ABBA-123F10E55850}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D90BEB6F-494A-49F4-ABBA-123F10E55850}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E3705AF-9085-4D27-B6B8-60093BEAACC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E3705AF-9085-4D27-B6B8-60093BEAACC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E3705AF-9085-4D27-B6B8-60093BEAACC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E3705AF-9085-4D27-B6B8-60093BEAACC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

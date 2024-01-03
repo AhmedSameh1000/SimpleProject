@@ -4,6 +4,8 @@ using SimpleEcommerce.Contract.ServicesContracts;
 using SimpleEcommerce.Domain.Entities;
 using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Diagnostics.Metrics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,6 +23,10 @@ namespace SimpleEcommerce.Application.ServicesImplementation
 
         public async Task<Category> AddAsync(string CategoryName)
         {
+            if (CategoryName is null)
+            {
+                throw new ArgumentNullException("Category Cant Be Null");
+            }
             var Category = new Category()
             {
                 Name = CategoryName,

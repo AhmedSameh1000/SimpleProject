@@ -31,6 +31,15 @@ namespace SimpleEcommerce.Application.ServicesImplementation
 
         public async Task<Product> AddAsync(ProductDTO productDTO)
         {
+            if (productDTO is null)
+            {
+                throw new ArgumentNullException(nameof(productDTO));
+            }
+            if (productDTO.Name is null)
+            {
+                return null;
+            }
+
             string RootPath = _Host.WebRootPath;
             var ImageUrl = "";
             string fileName = Guid.NewGuid().ToString();
