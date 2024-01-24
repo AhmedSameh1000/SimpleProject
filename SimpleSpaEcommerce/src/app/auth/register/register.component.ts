@@ -22,6 +22,7 @@ export class RegisterComponent {
       Password: new FormControl('', [Validators.required]),
     });
   }
+  isLreadySigned: string;
   Register() {
     if (this.ReegisterForm.invalid) {
       return;
@@ -32,7 +33,7 @@ export class RegisterComponent {
         this.Router.navigate(['auth/login']);
       },
       error: (err) => {
-        console.log(err);
+        console.log(err.error.message);
       },
     });
   }

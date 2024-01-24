@@ -3,11 +3,13 @@
     class="example-card w-100 m-auto position-relative mycont"
     *ngFor="let product of ProductList"
   >
-    <div class="category btn btn-primary">{{ product.category }}</div>
-    <mat-card-header>
+    <div class="category btn btn-primary rounded rounded-0">
+      {{ product.category }}
+    </div>
+    <div>
       <div mat-card-avatar class="example-header-image"></div>
       <mat-card-title class="mt-4 mb-2">{{ product.name }}</mat-card-title>
-    </mat-card-header>
+    </div>
     <img
       mat-card-image
       [src]="product.imageUrl"

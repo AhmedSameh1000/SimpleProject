@@ -22,6 +22,7 @@
     >
       *Email is required
     </mat-error>
+
     <mat-error
       *ngIf="
         ReegisterForm.get('Email')?.errors?.['email'] 
@@ -44,6 +45,9 @@
       Password is required
     </mat-error>
   </mat-form-field>
+  <strong class="text-start" *ngIf="isLreadySigned">{{
+    isLreadySigned
+  }}</strong>
 
   <button mat-raised-button color="primary" (click)="Register()">
     Register

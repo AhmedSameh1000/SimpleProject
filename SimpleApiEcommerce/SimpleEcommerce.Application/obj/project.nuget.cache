@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KoJdCfDJp68wSe45xGYSW1GauKmAfvSMxFjwbInj4IzlAO8fchzE2u+klMIhvfD75jxcpaX7Fc02Kh17K+85yw==",
+  "dgSpecHash": "9M+wJDiA5fr2RdW5+y5MCQZoNEk0j5bQdUvKFZNgHRmoouHc75DNx9WnDpQsKXveXxhauHFNvA2BK90IeRpLwA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProjectTask\\SimpleApiEcommerce\\SimpleEcommerce.Application\\SimpleEcommerce.Application.csproj",
+  "projectFilePath": "C:\\Users\\Ahmed Sameh\\Desktop\\Task\\SimpleProject\\SimpleApiEcommerce\\SimpleEcommerce.Application\\SimpleEcommerce.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ahmed Sameh\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Ahmed Sameh\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

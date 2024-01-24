@@ -930,11 +930,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProjectTask\\SimpleApiEcommerce\\SimpleEcommerce.Contract\\SimpleEcommerce.Contract.csproj",
+      "projectUniqueName": "C:\\Users\\Ahmed Sameh\\Desktop\\Task\\SimpleProject\\SimpleApiEcommerce\\SimpleEcommerce.Contract\\SimpleEcommerce.Contract.csproj",
       "projectName": "SimpleEcommerce.Contract",
-      "projectPath": "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProjectTask\\SimpleApiEcommerce\\SimpleEcommerce.Contract\\SimpleEcommerce.Contract.csproj",
+      "projectPath": "C:\\Users\\Ahmed Sameh\\Desktop\\Task\\SimpleProject\\SimpleApiEcommerce\\SimpleEcommerce.Contract\\SimpleEcommerce.Contract.csproj",
       "packagesPath": "C:\\Users\\Ahmed Sameh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProjectTask\\SimpleApiEcommerce\\SimpleEcommerce.Contract\\obj\\",
+      "outputPath": "C:\\Users\\Ahmed Sameh\\Desktop\\Task\\SimpleProject\\SimpleApiEcommerce\\SimpleEcommerce.Contract\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ahmed Sameh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -951,8 +951,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProjectTask\\SimpleApiEcommerce\\SimpleEcommerce.Domain\\SimpleEcommerce.Domain.csproj": {
-              "projectPath": "C:\\Users\\Ahmed Sameh\\Desktop\\SimpleProjectTask\\SimpleApiEcommerce\\SimpleEcommerce.Domain\\SimpleEcommerce.Domain.csproj"
+            "C:\\Users\\Ahmed Sameh\\Desktop\\Task\\SimpleProject\\SimpleApiEcommerce\\SimpleEcommerce.Domain\\SimpleEcommerce.Domain.csproj": {
+              "projectPath": "C:\\Users\\Ahmed Sameh\\Desktop\\Task\\SimpleProject\\SimpleApiEcommerce\\SimpleEcommerce.Domain\\SimpleEcommerce.Domain.csproj"
             }
           }
         }

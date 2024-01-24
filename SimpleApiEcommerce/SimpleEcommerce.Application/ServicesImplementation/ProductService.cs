@@ -44,6 +44,12 @@ namespace SimpleEcommerce.Application.ServicesImplementation
             var ImageUrl = "";
             string fileName = Guid.NewGuid().ToString();
             string imageFolderPath = Path.Combine(RootPath, @"Images");
+
+            if (!Path.Exists(imageFolderPath))
+            {
+                Directory.CreateDirectory(imageFolderPath);
+            }
+
             string extension = Path.GetExtension(productDTO.file.FileName);
             using (FileStream fileStreams = new(Path.Combine(imageFolderPath,
                              fileName + extension), FileMode.Create))
